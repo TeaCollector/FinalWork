@@ -26,7 +26,7 @@
 Console.Write("Please input array length: ");
 int n = Convert.ToInt32(Console.ReadLine());
 string[] a = StringArray(n);
-// Console.Write("[");
+Console.Write("[");
 foreach (string item in a)
-    Console.Write(item + " ");
-// Console.Write("]");
+    Console.Write("'" + item + "' ");
+Console.Write("]");
