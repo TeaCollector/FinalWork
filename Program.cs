@@ -13,7 +13,14 @@
            array[j++] = s; 
         i++;      
     }
-    return array;
+    finAr = new string[j];
+    i = 0;
+    while(i < j) 
+    {
+        finAr[i] = array[i];
+        i++;
+    }
+    return finAr;
 }
 
 Console.Write("Please input array length: ");
